@@ -1,6 +1,12 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-size: 2em;
+  color: white;
   background-color: #8b8b8b;
 }
 
