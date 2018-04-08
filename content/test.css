@@ -78,7 +78,7 @@ div.stage div.cube div.back {
   top: 0;
   left: 0vw;
   background-color: #8b8b8b;
-  background-image: url("../image/1523200849.gif");
+  background-image: url("/image/1523200849.gif");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transform: rotateX(180deg);
