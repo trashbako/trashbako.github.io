@@ -8,6 +8,24 @@ body{
     color: rgb(255, 255, 255);
     background-color: rgb(139, 139, 139);
 }
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    &:visited{
+        color: rgb(255, 255, 255);
+    }
+    &:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
 div.stage{
     position: relative;
     margin: 0;
@@ -43,14 +61,14 @@ div.stage{
             border: 0px solid rgb(255, 255, 255);
             box-sizing: border-box;
             text-align: center;
-            line-height: 198px;
+            line-height: 100px;
             position: absolute;
             background-color: rgba(139, 139, 139, 0.7);
         }
         div.front{
             top: 0;
             left: 0;
-            background-color: rgba(#7fdbb6, 1);
+            background-color: rgb(164, 233, 198);
             -webkit-transform: translateZ(50vh);
         }
         div.content{
@@ -69,13 +87,13 @@ div.stage{
         div.back{
             top: 0;
             left: 0vw;
-            background-color: rgb(139, 139, 139);
-            background-image: url("../image/1523200849.gif");
+            background-color: rgb(255, 255, 255);
+            /*background-image: url("../image/1523200849.gif");*/
             background-size: cover;
             background-repeat: no-repeat;
             -webkit-transform: rotateX(180deg);
             .layered{
-                background-color: rgba(139, 139, 139, 0.705);
+                background-color: rgb(164, 233, 198);
             }
         }
         div.left{
